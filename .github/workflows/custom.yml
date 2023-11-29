@@ -1,6 +1,6 @@
 name: Build customized u-boot
 
-on:
+on: [workflow_dispatch]
   workflow_dispatch:
     inputs:
       flash:
